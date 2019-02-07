@@ -8,4 +8,5 @@ exports.addFriend = function(req, res) { 
 	}
 	data.friends.push(friendAdd);
 	console.log(data);
+	res.render('index',data);
  }
